@@ -1,0 +1,55 @@
+body {
+    background-image: url("kitchen.png");
+    background-size: cover;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 60px;
+    margin-bottom: 10px;
+    color: white;
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: black;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: white;
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: black;
+}
+#buttons{
+    display: flex;
+    align-items:  center;
+    flex-direction: column;
+}
+#cookie{
+    width: 100px;
+}
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#increment-btn {
+    background: transparent;
+}
+
+#save-btn {
+    background: darkgreen;
+}
+p{
+    color: white;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: black;
+}
